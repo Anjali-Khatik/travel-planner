@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+__pycache__/
+
+# Environment variables
+.env
+
+# Notebook files
+*.ipynb
+
+# VSCode and IDE configs
+.vscode/
+.idea/

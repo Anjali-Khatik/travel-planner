@@ -1,0 +1,203 @@
+[
+    {
+      "name": "Paris",
+      "country": "France",
+      "tags": ["romantic", "culture", "food"],
+      "budget_level": "high",
+      "ideal_duration": [3, 7],
+      "best_seasons": ["spring", "fall"]
+    },
+    {
+      "name": "Bali",
+      "country": "Indonesia",
+      "tags": ["beach", "romantic", "relaxation", "nature"],
+      "budget_level": "medium",
+      "ideal_duration": [5, 10],
+      "best_seasons": ["summer", "fall"]
+    },
+    {
+      "name": "Kyoto",
+      "country": "Japan",
+      "tags": ["culture", "temples", "nature", "photography"],
+      "budget_level": "medium",
+      "ideal_duration": [3, 6],
+      "best_seasons": ["spring", "fall"]
+    },
+    {
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "tags": ["nature", "adventure", "northern lights"],
+      "budget_level": "high",
+      "ideal_duration": [4, 7],
+      "best_seasons": ["winter", "fall"]
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "tags": ["culture", "beach", "food", "architecture"],
+      "budget_level": "medium",
+      "ideal_duration": [3, 6],
+      "best_seasons": ["spring", "summer"]
+    },
+    {
+      "name": "Goa",
+      "country": "India",
+      "tags": ["beach", "nightlife", "relaxation"],
+      "budget_level": "low",
+      "ideal_duration": [4, 7],
+      "best_seasons": ["winter"]
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "tags": ["history", "culture", "food"],
+      "budget_level": "high",
+      "ideal_duration": [3, 6],
+      "best_seasons": ["spring", "fall"]
+    },
+    {
+      "name": "Queenstown",
+      "country": "New Zealand",
+      "tags": ["adventure", "nature", "sports"],
+      "budget_level": "medium",
+      "ideal_duration": [5, 10],
+      "best_seasons": ["summer"]
+    },
+    {
+      "name": "Phuket",
+      "country": "Thailand",
+      "tags": ["beach", "budget", "relaxation"],
+      "budget_level": "low",
+      "ideal_duration": [4, 7],
+      "best_seasons": ["winter", "spring"]
+    },
+    {
+      "name": "Santorini",
+      "country": "Greece",
+      "tags": ["romantic", "photography", "beach"],
+      "budget_level": "high",
+      "ideal_duration": [3, 5],
+      "best_seasons": ["summer", "spring"]
+    },
+    {
+      "name": "Banff",
+      "country": "Canada",
+      "tags": ["nature", "hiking", "photography", "adventure"],
+      "budget_level": "medium",
+      "ideal_duration": [3, 6],
+      "best_seasons": ["summer", "fall"]
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "tags": ["history", "culture", "desert"],
+      "budget_level": "low",
+      "ideal_duration": [4, 7],
+      "best_seasons": ["winter", "fall"]
+    },
+    {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "tags": ["culture", "romantic", "cycling", "food"],
+      "budget_level": "medium",
+      "ideal_duration": [3, 6],
+      "best_seasons": ["spring", "summer"]
+    },
+    {
+      "name": "Cape Town",
+      "country": "South Africa",
+      "tags": ["adventure", "hiking", "beach", "wildlife"],
+      "budget_level": "medium",
+      "ideal_duration": [5, 10],
+      "best_seasons": ["fall", "spring"]
+    },
+    {
+      "name": "Machu Picchu",
+      "country": "Peru",
+      "tags": ["hiking", "adventure", "history"],
+      "budget_level": "medium",
+      "ideal_duration": [4, 7],
+      "best_seasons": ["spring", "fall"]
+    },
+    {
+        "name": "Jaipur",
+        "country": "India",
+        "tags": ["culture", "heritage", "architecture", "shopping"],
+        "budget_level": "low",
+        "ideal_duration": [3, 5],
+        "best_seasons": ["winter"]
+      },
+      {
+        "name": "Manali",
+        "country": "India",
+        "tags": ["nature", "snow", "adventure", "mountains"],
+        "budget_level": "medium",
+        "ideal_duration": [4, 7],
+        "best_seasons": ["summer", "winter"]
+      },
+      {
+        "name": "Leh-Ladakh",
+        "country": "India",
+        "tags": ["adventure", "mountains", "photography", "road trip"],
+        "budget_level": "medium",
+        "ideal_duration": [6, 10],
+        "best_seasons": ["summer"]
+      },
+      {
+        "name": "Varanasi",
+        "country": "India",
+        "tags": ["spiritual", "culture", "history", "photography"],
+        "budget_level": "low",
+        "ideal_duration": [2, 4],
+        "best_seasons": ["winter", "spring"]
+      },
+      {
+        "name": "Udaipur",
+        "country": "India",
+        "tags": ["romantic", "heritage", "culture", "lakes"],
+        "budget_level": "medium",
+        "ideal_duration": [3, 5],
+        "best_seasons": ["winter", "fall"]
+      },
+      {
+        "name": "Rishikesh",
+        "country": "India",
+        "tags": ["spiritual", "adventure", "yoga", "nature"],
+        "budget_level": "low",
+        "ideal_duration": [3, 6],
+        "best_seasons": ["spring", "fall"]
+      },
+      {
+        "name": "Darjeeling",
+        "country": "India",
+        "tags": ["nature", "tea gardens", "mountains", "relaxation"],
+        "budget_level": "low",
+        "ideal_duration": [3, 5],
+        "best_seasons": ["summer", "spring"]
+      },
+      {
+        "name": "Andaman Islands",
+        "country": "India",
+        "tags": ["beach", "relaxation", "snorkeling", "honeymoon"],
+        "budget_level": "high",
+        "ideal_duration": [5, 7],
+        "best_seasons": ["winter", "spring"]
+      },
+      {
+        "name": "Mysore",
+        "country": "India",
+        "tags": ["heritage", "culture", "palaces", "history"],
+        "budget_level": "low",
+        "ideal_duration": [2, 4],
+        "best_seasons": ["winter", "fall"]
+      },
+      {
+        "name": "Alleppey",
+        "country": "India",
+        "tags": ["houseboat", "romantic", "backwaters", "relaxation"],
+        "budget_level": "medium",
+        "ideal_duration": [2, 4],
+        "best_seasons": ["winter", "fall"]
+      }
+  ]
+  
