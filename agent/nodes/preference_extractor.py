@@ -1,18 +1,24 @@
 # Purpose: Extract structured preferences from user input
-from config import OPENAI_API_KEY
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate
+import os
+from dotenv import load_dotenv
+import json
+import re
+load_dotenv()
 
-llm = ChatOpenAI(api_key=OPENAI_API_KEY,
-                 model="gpt-4o", 
-                 temperature=0.2)
+llm = ChatGroq(
+    api_key=os.getenv("GROQ_API_KEY"),
+    model_name="llama-3.3-70b-versatile",  # Groq model name
+    temperature=0.2
+)
 
 prompt = ChatPromptTemplate.from_template("""
 You are a travel assistant. Extract the following from this message:
 - budget: low, medium, or high
-- duration (in days, number only)
+- duration (in days)
 - season: spring, summer, fall, winter
-- interests (from: beach, romantic, adventure, culture, history, food, nature, relaxation)
+- interests (beach, romantic, adventure, culture, history, food, nature, relaxation)
 
 Respond in JSON only.
 
@@ -26,7 +32,18 @@ def extract_preferences(state):
         # LLM version (only if API is live)
         chain = prompt | llm
         response = chain.invoke({"input": user_input})
-        state.preferences = eval(response.content)
+        print("LLM RAW OUTPUT:", response.content)
+        def safe_json_parse(text):
+            try:
+                return json.loads(text)
+            except:
+                match = re.search(r"\{.*\}", text, re.DOTALL)
+                if match:
+                    return json.loads(match.group())
+                raise
+
+        state.preferences = safe_json_parse(response.content)
+        # state.preferences = eval(response.content)
     except Exception as e:
         # Rule-based fallback
         print("[Fallback] LLM failed, using rule-based preference extraction.")
